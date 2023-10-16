@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuflix</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/06a651c8da.js"></script>
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" src="logo.png" alt="Logo">
+        <ul id="navlinks">
+            <li>Home</li>
+            <li>Serie TV</li>
+            <li>Film</li>
+        </ul>
+        <img id="search-icon" src="search-icon.png" alt="Cerca">
+    </div>
+
+    <div id="preview-container">
+        <video autoplay muted>
+            <source src="LUPIN.mp4">
+        </video>
+        <div id="preview-overlay">
+            <div id="preview-details">
+                <h3 id="preview-title">LUPIN</h3>
+                <button><i class="fas fa-play"></i> Guarda</button>
+                <button><i class="fas fa-volume-mute"></i></button>
+            </div>
+        </div>
+    </div>
+    <div id="categories">
+        <div class="category">
+            <h3>Azione & Avventura</h3>
+            <img src="anteprima/mission impossible.jpg">
+            <img src="anteprima/skyscaper.jpg">
+            <img src="anteprima/spider-man.jpg">
+        </div>
+        <div class="category">
+            <h3>Commedie</h3>
+            <img src="anteprima/una spia e mezzo.jpg">
+            <img src="anteprima/quo vado.jpg">
+            <img src="anteprima/me time.jpg">
+        </div>
+        <div class="category">
+            <h3>Fantascienza & Fantasy </h3>
+            <img src="anteprima/venom.jpg">
+            <img src="anteprima/rampage.jpg">
+            <img src="anteprima/jumanji.jpg">
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
